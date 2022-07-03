@@ -7,6 +7,8 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    const cors = require("cors");
+app.use(cors());
   </React.StrictMode>,
   document.getElementById("root")
 );
